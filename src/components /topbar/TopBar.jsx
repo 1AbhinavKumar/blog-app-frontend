@@ -15,7 +15,7 @@ import usr_img from "../assets/usr_img.jpeg"
 
 function TopBar() {
   const {user,dispatch} = useContext(Context); 
-  const PF = "http://localhost:5000/images/"
+  const PF = "https://blog-app-backend-if94.onrender.com/images/"
   // const navigate = useNavigate(); // Initialize the hook
   const handleLogout =()=>{
     dispatch({type: "LOGOUT"});

@@ -10,7 +10,7 @@ function Singlepost() {
   const path = location.pathname.split("/")[2]; // to get the id of the post we have used location  use print(location .pathname )
 
   const [post, setPost] = useState({});
-  const PF = "http://localhost:5000/images/";
+  const PF = "https://blog-app-backend-if94.onrender.com/images/";
 
   const { user } = useContext(Context);
   const [title,setTitle] = useState("")

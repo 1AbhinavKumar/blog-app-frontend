@@ -2,7 +2,7 @@ import React from "react";
 import {Link} from "react-router-dom"
 
 function post({ post }) {
-  const PF = "http://localhost:5000/images/"
+  const PF = "https://blog-app-backend-if94.onrender.com/images/"
 
   return (
     <div className="lg:w-96 mt-4 mb-10 mx-6 ">
